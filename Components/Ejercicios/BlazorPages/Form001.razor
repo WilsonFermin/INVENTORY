@@ -1,0 +1,13 @@
+@page "/"
+
+<input type="text" @bind-value="@message"/>
+
+<div>
+    <p><i>Este es tu mensaje:</i> @message</p>
+</div>
+
+
+@code
+{
+    string message = "";
+} 
